@@ -29,7 +29,7 @@
                 </h4>
                 <div class="cost mt-3 text-dark">
                   <h5 class="card-text price">
-                    <?php echo htmlspecialchars($product->price) . " rsd"; ?>
+                    <?php echo htmlspecialchars($product->price) . " $"; ?>
                   </h5>
                   <div class="star mt-2 align-items-center">
                     <?php

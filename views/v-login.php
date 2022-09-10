@@ -12,7 +12,7 @@
 								<div class="center-wrap">
 									<div class="section text-center">
 										<h4 class="mb-4 pb-3">Log In</h4>
-										<form action="login.php" method="GET">
+										<form action="login-page.php" method="GET">
 											<div class="form-group">
 												<input type="email" name="email" class="form-style text-center" placeholder="Your Email" id="email" autocomplete="off">							
 											</div>	
@@ -30,7 +30,7 @@
 								<div class="center-wrap">
 									<div class="section text-center">
 										<h4 class="mb-4 pb-3">Sign Up</h4>
-										<form action="login.php" method="GET">
+										<form action="login-page.php" method="GET">
 										<div class="form-group">
 											<input type="text" name="name" class="form-style text-center" placeholder="Your Full Name" id="name" autocomplete="off">		
 										</div>	

@@ -52,7 +52,7 @@
                                         echo htmlspecialchars('active');
                                     } 
                                 ?>
-                                " href="./news.php">News
+                                " href="./news-page.php">News
                             </a>                           
                         </li>
                         <li class="nav-item">
@@ -63,7 +63,7 @@
                                         echo htmlspecialchars('active');
                                     } 
                                 ?>
-                                " href="./contact.php">Contact Us
+                                " href="./contact-page.php">Contact Us
                             </a>
                         </li>
                         <li class="nav-item">
@@ -74,7 +74,7 @@
                                         echo htmlspecialchars('active');
                                     } 
                                 ?>
-                                " href="./login.php">Login
+                                " href="./login-page.php">Login
                             </a>
                         </li>
                     </ul>

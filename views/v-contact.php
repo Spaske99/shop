@@ -1,9 +1,9 @@
-<div class="bg-image" style="background-image: url('./public/theme/img/wallpapers/wallpaper.jpg'); background-repeat: no-repeat; background-attachment: fixed; "> 
+<!-- <div class="bg-image" style="background-image: url('./public/theme/img/wallpapers/wallpaper.jpg'); background-repeat: no-repeat; background-attachment: fixed; ">  -->
   <main>
     <div class="container">
       <div class="row">     
         <div class="mt-5">
-          <form class="mb-5" action="contact.php" method="GET">
+          <form class="mb-5" action="contact-page.php" method="GET">
             <div class="row">
               <div class="col-md-12 form-group mb-3">
                 <label for="" class="col-form-label">Name *</label>

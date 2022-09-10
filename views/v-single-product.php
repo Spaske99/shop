@@ -10,7 +10,7 @@
                     <hr class="mt-3">
                     <p><strong>About game:</strong> <?php echo htmlspecialchars($product->description); ?></p>
                     <p><strong>Type:</strong> <?php echo htmlspecialchars($product->type); ?></p>
-                    <h3><strong>Price: </strong><?php echo htmlspecialchars($product->price); ?> rsd</h3>
+                    <h3><strong>Price: </strong><?php echo htmlspecialchars($product->price); ?> $</h3>
                     <?php
                     for($i=0; $i<($product->stars); $i++) {
                     ?>
@@ -50,7 +50,7 @@
                     </div>
                     <div class='col-8 mt-3'>
                         <h4><?php echo htmlspecialchars($singleRelated->title) . "<br>"; ?></h4>
-                        <p><?php echo htmlspecialchars($singleRelated->price) . " rsd<br>"; ?></p>
+                        <p><?php echo htmlspecialchars($singleRelated->price) . " $<br>"; ?></p>
                         <a class="btn btn-primary" href="./single-product-page.php?page=<?php echo htmlspecialchars($singleRelated->id); ?>">Show Product</a>
                     </div>
                 </article>

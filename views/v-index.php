@@ -50,7 +50,7 @@
                                 <div class="mt-3 info">                      
                                 </div>
                                     <div class="cost mt-3 text-dark">
-                                        <h6 class="price"><?php echo $singlePopular->price . " rsd"; ?></h6>
+                                        <h6 class="price"><?php echo $singlePopular->price . " $"; ?></h6>
                                         <div class="star mt-3 align-items-center">
                                         <?php
                                         for($i=0; $i<($singlePopular->stars); $i++) {
